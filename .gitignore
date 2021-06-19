@@ -6,3 +6,4 @@ htmlcov
 experiments
 store
 *.postman_collection.json
+*.pdf
