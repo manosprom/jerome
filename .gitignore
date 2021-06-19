@@ -1,3 +1,8 @@
 .idea
 venv
 __pycache__
+.coverage
+htmlcov
+experiments
+store
+*.postman_collection.json
