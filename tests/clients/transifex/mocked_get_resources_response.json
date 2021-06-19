@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "id": "o:jerome-2:p:jerome-translator:r:test_category",
+            "type": "resources",
+            "attributes": {
+                "slug": "test_category",
+                "name": "Test Category",
+                "priority": "normal",
+                "i18n_type": "KEYVALUEJSON",
+                "i18n_version": 2,
+                "accept_translations": true,
+                "string_count": 3,
+                "word_count": 7,
+                "datetime_created": "2021-06-19T13:49:57Z",
+                "datetime_modified": "2021-06-19T14:49:58Z",
+                "categories": [
+                    "test"
+                ],
+                "i18n_options": {},
+                "mp4_url": null,
+                "ogg_url": null,
+                "youtube_url": null,
+                "webm_url": null
+            },
+            "relationships": {
+                "project": {
+                    "links": {
+                        "related": "https://rest.api.transifex.com/projects/o:jerome-2:p:jerome-translator"
+                    },
+                    "data": {
+                        "type": "projects",
+                        "id": "o:jerome-2:p:jerome-translator"
+                    }
+                },
+                "i18n_format": {
+                    "data": {
+                        "type": "i18n_formats",
+                        "id": "KEYVALUEJSON"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://rest.api.transifex.com/resources/o:jerome-2:p:jerome-translator:r:test_category"
+            }
+        }
+    ],
+    "links": {
+        "self": "https://rest.api.transifex.com/resources?filter[project]=o:jerome-2:p:jerome-translator",
+        "next": null,
+        "previous": null
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "data": {
+        "id": "26e1105f-c766-4c59-b34e-2e0e54b7e1af",
+        "type": "resource_strings_async_uploads",
+        "attributes": {
+            "status": "pending",
+            "errors": [],
+            "date_created": "2021-06-24T00:41:50Z",
+            "date_modified": "2021-06-24T00:41:50Z",
+            "details": null
+        },
+        "relationships": {
+            "resource": {
+                "links": {
+                    "related": "https://rest.api.transifex.com/resources/o:jerome-2:p:jerome-translator:r:test_category"
+                },
+                "data": {
+                    "type": "resources",
+                    "id": "o:jerome-2:p:jerome-translator:r:test_category"
+                }
+            }
+        },
+        "links": {
+            "self": "https://rest.api.transifex.com/resource_strings_async_uploads/26e1105f-c766-4c59-b34e-2e0e54b7e1af"
+        }
+    }
+}

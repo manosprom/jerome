@@ -1,0 +1,26 @@
+{
+  "data": {
+    "attributes": {
+      "categories": [
+        "entertainment"
+      ],
+      "name": "entertainment",
+      "slug": "entertainment"
+    },
+    "relationships": {
+      "i18n_format": {
+        "data": {
+          "id": "KEYVALUEJSON",
+          "type": "i18n_formats"
+        }
+      },
+      "project": {
+        "data": {
+          "id": "o:an_organization:p:a_project",
+          "type": "projects"
+        }
+      }
+    },
+    "type": "resources"
+  }
+}
