@@ -1,0 +1,29 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+      "correct_answer": "X",
+      "incorrect_answers": [
+        "W",
+        "U",
+        "J"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the corgi in Cowboy Bebop?",
+      "correct_answer": "Einstein",
+      "incorrect_answers": [
+        "Edward",
+        "Rocket",
+        "Joel"
+      ]
+    }
+  ]
+}
