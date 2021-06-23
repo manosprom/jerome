@@ -1,5 +1,9 @@
 # Jerome Translator
 
+![example workflow](https://github.com/manosprom/jerome/actions/workflows/main.yml/badge.svg)
+[![codecov](https://codecov.io/gh/manosprom/jerome/branch/master/graph/badge.svg?token=9USIPE55WW)](https://codecov.io/gh/manosprom/jerome)
+
+
 A simple app that will translate a number a questions taken from trivia
 using the transifex api.
 
