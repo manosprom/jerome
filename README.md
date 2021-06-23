@@ -9,11 +9,13 @@ using the transifex api.
 
 # Flow
 
-diagram here
+[![diagram](https://www.websequencediagrams.com/files/render?link=Y6iu140iVLcL1SfZq9Nlj1uZgCY2O7NW09Im4Og6jgVJOFbS2LjcE3hBPuReANud)]
 
 ## Trivia
 
-### Api
+- [Api Documentation](https://opentdb.com/api_config.php)
+
+
 
 ## Transifex
 
@@ -31,3 +33,57 @@ diagram here
   
 ## Run the app.
 
+### Arguments
+
+| Arguments | Purpose | Default |
+| --- | --- | --- |
+| [--transifex-api-url TRANSIFEX_API_URL] | if required to specify a different transifex rest api url| https://rest.api.transifex.com |  
+| [--trivia-api-url TRIVIA_API_URL] | if required to specify a different trivia api url | https://opentdb.com |
+| [--questions-num QUESTIONS_NUM] | The amount of questions to retrieve per category on each run | 10 |
+| --transifex-token TRANSIFEX_TOKEN | The transifex token that you got when you registered your account | Required |
+| --transifex-organization TRANSIFEX_ORGANIZATION | The transifex organization that you have created from the dashboard | Required |
+| --transifex-project TRANSIFEX_PROJECT | The transifex project that you have created from the dashboard | Required |
+| -c --categories CATEGORIES [CATEGORIES ...]  | The trivia category ids | Required |
+| --categories-index | View the id to title mapping from trivia | |
+
+### Categories Index
+
+To view the category ids that trivial supports.
+
+```bash
+python -m app --categories-index
+```
+
+```text
+9 General Knowledge
+10 Entertainment: Books
+11 Entertainment: Film
+12 Entertainment: Music
+13 Entertainment: Musicals & Theatres
+14 Entertainment: Television
+15 Entertainment: Video Games
+16 Entertainment: Board Games
+17 Science & Nature
+18 Science: Computers
+19 Science: Mathematics
+20 Mythology
+21 Sports
+22 Geography
+23 History
+24 Politics
+25 Art
+26 Celebrities
+27 Animals
+28 Vehicles
+29 Entertainment: Comics
+30 Science: Gadgets
+31 Entertainment: Japanese Anime & Manga
+32 Entertainment: Cartoon & Animations
+```
+
+### Run the app
+
+```bash
+pip install -r requirements.txt
+python -m app --transifex-token the_token --transifex-organization the_organization --transifex-project the_project -c 16 17
+```
