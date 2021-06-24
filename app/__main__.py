@@ -24,4 +24,4 @@ if __name__ == '__main__':
         options.transifex_project
     )
 
-    app.run(options.categories)
+    app.run(options.categories, options.questions_num)
