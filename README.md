@@ -83,7 +83,18 @@ python -m app --categories-index
 
 ### Run the app
 
+1. Create and activate a virtual evniroment
+```bash
+python -m venv venv
+. /venv/bin/activate
+```
+
+2. Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+3. Send questions for translation
+```bash
 python -m app --transifex-token the_token --transifex-organization the_organization --transifex-project the_project -c 16 17
 ```
